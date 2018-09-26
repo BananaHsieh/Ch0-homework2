@@ -89,6 +89,7 @@ namespace LeapMotionDriverWindow
                     break;
             }
         }
+        printf("Hellow ,this is new branch.\n")
         private void FingerPointer(Controller controller, Frame currentFrame)
         {
             if (currentFrame.Hands.IsEmpty) return;
